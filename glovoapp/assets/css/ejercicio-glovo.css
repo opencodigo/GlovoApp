@@ -3,6 +3,71 @@
     height: 100%;
     box-sizing: border-box;
 } */
+.contenedorNegocios{
+    padding: 70px 20px 60px;
+    display: block;
+}
+.bussinessImagen{
+    background-image: url('/Dia1/Ejercicio_Glovo/GlovoApp/glovoapp/assets/img/glovobusiness_shipment.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: 40%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.botonamarillo{
+    display: inline-block;
+    padding: 17px 80px;
+    font-size: 16px;
+    height: 50px;
+    width: 280px;
+}
+.negocios{
+    padding: 15px 75px;
+    background: linear-gradient(307deg,#fbc033,#fcd33c);
+    box-sizing: border-box;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.12);
+    border-radius: 30px;
+}
+.boton{
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 60px;
+    min-width: 120px;
+    color: #fff;
+    background-color: #2abb9b;
+    font-size: 16px;
+    border-radius: 29px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 3px 5px 0 rgba(42,187,155,.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    max-width: 340px;
+    margin: 0 auto;
+}
+.glovoBussiness{
+    margin: 0 auto;
+    min-height: 240px;
+    background: #4a4a4a;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: .3s;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
 .titulo:first-child{
     margin-left: -22%;
 }
@@ -33,6 +98,7 @@
     position: relative;
     margin-top: 45px;
     display: block;
+    width: 100%;
 }
 #contenedor2{
     flex-direction: row;
