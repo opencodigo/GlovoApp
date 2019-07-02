@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Glovo - Example</title>
+
+    <link rel="stylesheet" href="Glovo%20-%20Example_files/bootstrap.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Glovo%20-%20Example_files/all.css">
+
+    <style>
+        * {
+            --color-primario: rgb(42, 187, 155);
+            --color-secundario: #00a082;
+            --color-piepagina: rgb(48, 48, 48);
+            --color-amarillo: #ffc244;
+            --color-alternativo-secundario: #9b9b9b;
+        }
+
+        .btn-glovo {
+            border-radius: 20px;
+            border-color: rgb(42, 187, 155);
+            background-color: rgb(42, 187, 155);
+            width: 100%;
+        }
+
+        .btn-glovo:hover {
+            border-color: var(--color-secundario);
+            background-color: var(--color-secundario);
+        }
+
+        .pie-pagina {
+            background-color: var(--color-piepagina);
+        }
+        .lista-footer-container a{
+            text-decoration: none;
+            font-size: 13px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 300 !important;
+        }
+        .lista-footer-container a:hover{
+            color: var(--color-amarillo) !important;
+        }
+        .pie-header-title{
+            color: var(--color-alternativo-secundario);
+        }
+        .pie-curva{
+            transform: rotate(180deg) ;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="container">
+        <h2 class="font-weight-bold">
+            ¡Creamos Glovo juntos!
+        </h2>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="Glovo%20-%20Example_files/corporate-courier-picture.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Repartidores</h5>
+                <h6 class="card-subtitle mb-2 text-muted"> Solo las horas que tú quieras</h6>
+                <p class="card-text">Sé tu propio jefe. Flexibilidad de horarios, ingresos competitivos y la oportunidad
+                    de conocer tu ciudad repartiendo al aire libre. Apúntate y en menos de 24h colabora con nosotros.
+                </p>
+                <div>
+                    <button href="#" class="btn btn-primary btn-glovo ">Reparte con Glovo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid pie-pagina text-white">
+        <div class="pie-curva row">
+            <img src="Glovo%20-%20Example_files/curve.svg" alt="Curva">
+        </div>
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-2">
+                    <img src="Glovo%20-%20Example_files/glovo-white.svg" alt="Glovo">
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title pb-3">
+                        TRABAJA CON NOSOTROS
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Empleo</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Colaboradores de tienda</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Repartidores</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Glovo Business</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title pb-3">
+                        AYUDA
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Preguntas frecuentes</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title pb-3">
+                        TÉRMINOS LEGALES
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Términos y Condiciones</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Políticas de Privacidad</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title mb-3">
+                        SÍGUENOS
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Facebook</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Twitter</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="mb-3"><img src="Glovo%20-%20Example_files/boton-app-store.svg" alt="App Store"></div>
+                    <div><img src="Glovo%20-%20Example_files/boton-google-play.svg" alt="Google Play"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="Glovo%20-%20Example_files/jquery-3.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="Glovo%20-%20Example_files/popper.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="Glovo%20-%20Example_files/bootstrap.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
