@@ -13,6 +13,69 @@
 
     <link rel="stylesheet" href="/Dia1/Ejercicio_Glovo/GlovoApp/glovoapp/assets/css/ejercicio-glovo.css">
     <title>Hello, world!</title>
+
+    <style>
+        * {
+            --color-primario: rgb(42, 187, 155);
+            --color-secundario: #00a082;
+            --color-piepagina: rgb(48, 48, 48);
+            --color-amarillo: #ffc244;
+            --color-alternativo-secundario: #9b9b9b;
+        }
+
+        @font-face {
+            font-family: "Gotham";
+            src: url("/assets/font/gotham-cufonfonts/Gotham-Light.otf");
+        }
+
+        .btn-glovo {
+            border-radius: 20px;
+            border-color: rgb(42, 187, 155);
+            background-color: rgb(42, 187, 155);
+            width: 100%;
+            font-size: 18px;
+            padding-top: .5em;
+            padding-bottom: .5em;
+        }
+
+        .btn-glovo:hover {
+            border-color: var(--color-secundario);
+            background-color: var(--color-secundario);
+        }
+
+        .pie-pagina {
+            background-color: var(--color-piepagina);
+        }
+
+        .lista-footer-container a {
+            text-decoration: none;
+            font-size: 13px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+        }
+
+        .lista-footer-container a:hover {
+            color: var(--color-amarillo) !important;
+        }
+
+        .pie-header-title {
+            color: var(--color-alternativo-secundario);
+        }
+
+        .pie-curva {
+            transform: rotate(180deg);
+        }
+
+        .card {
+            border: none;
+        }
+
+        .card-text {
+            font-family: "Gotham";
+            height: 200px;
+        }
+        
+    </style>
 </head>
 
 <body>
@@ -26,44 +89,45 @@
             <div class="row contenedor">
                 <div class="position-absolute col-12" id="fondoAmarillo">
                 </div>
-                <div class="position-relative col-12" id="contenido" >
-                <div class="row" id="contenedor2">
-                    <div class="col"style="width: 50%; display: block">
+                <div class="position-relative col-12" id="contenido">
+                    <div class="row" id="contenedor2">
+                        <div class="col" style="width: 50%; display: block">
                             <img src="/Dia1/Ejercicio_Glovo/GlovoApp/glovoapp/assets/img/cel.png" alt="">
-                    </div>
+                        </div>
                     </div>
                     <div class="col-6 titulo" id="derecha">
-                            <div class="titulo">Sigue tus entregas</div>
-                            <div class="titulo">Con la <span id="spanGlovo">Glovo App</span></div>
-                            <div class="descripcion">
-                                <div>
-                                    Ver el progreso de tus entregas
-                                </div>
-                                <div>
-                                    en tiempo real y desde donde quieras
-                                </div>
+                        <div class="titulo">Sigue tus entregas</div>
+                        <div class="titulo">Con la <span id="spanGlovo">Glovo App</span></div>
+                        <div class="descripcion">
+                            <div>
+                                Ver el progreso de tus entregas
                             </div>
-                            <div style="margin-left: 40px;">
-                                <a href="https://app.adjust.com/xle4el" style="color: -webkit-link;cursor: pointer;">
-                                    <img src="assets/img/appstore.svg" alt="">
-                                </a>
-                                <a href="https://app.adjust.com/ule61n?redirect=http%3A%2F%2Fplay.google.com/store/apps/details?id=com.glovo&amp;hl=es"
-                                style="margin-left: 15px;margin-left: 15px;color: -webkit-link;cursor: pointer;text-decoration: underline;">
-                                    <img src="assets/img/googleplay.svg" alt="">
-                                </a>
+                            <div>
+                                en tiempo real y desde donde quieras
                             </div>
                         </div>
+                        <div style="margin-left: 40px;">
+                            <a href="https://app.adjust.com/xle4el" style="color: -webkit-link;cursor: pointer;">
+                                <img src="assets/img/appstore.svg" alt="">
+                            </a>
+                            <a href="https://app.adjust.com/ule61n?redirect=http%3A%2F%2Fplay.google.com/store/apps/details?id=com.glovo&amp;hl=es"
+                                style="margin-left: 15px;margin-left: 15px;color: -webkit-link;cursor: pointer;text-decoration: underline;">
+                                <img src="assets/img/googleplay.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                    
+
             </div>
         </section>
         </section>
-        <section >
+        <section>
             <div class="contenedorNegocios">
                 <div class="glovoBussiness">
                     <div style="width: 60%;margin-top: 38px;color: #fff;display: block;">
                         <div style="margin-left: 57px;display: block;color: #fff;">
-                            <img src="assets/img/glovobusiness_logo.svg" style="max-width: 100%;margin-bottom: 15px;border-style: none;">
+                            <img src="assets/img/glovobusiness_logo.svg"
+                                style="max-width: 100%;margin-bottom: 15px;border-style: none;">
                         </div>
                         <div style="font-size: 16px;
                         line-height: 1.56;
@@ -71,39 +135,172 @@
                         margin-right: 40px;
                         margin-bottom: 26px;
                         margin-left: 57px;display: block;">
-                        La mejor manera de planificar y organizar las entregas de tu negocio.
+                            La mejor manera de planificar y organizar las entregas de tu negocio.
                         </div>
                         <div style="margin-left: 57px;display: block;color: #fff;">
                             <div class="botonamarillo negocios boton">
                                 ¡Empieza!
-                            </div> 
+                            </div>
                         </div>
-                        
-                       
+
+
                     </div>
                     <div class="bussinessImagen">
-                        <img src="/Dia1/Ejercicio_Glovo/GlovoApp/glovoapp/assets/img/glovobusiness_markers.svg" style="margin-left: -40px;border-style: none;box-sizing: border-box;">
+                        <img src="/Dia1/Ejercicio_Glovo/GlovoApp/glovoapp/assets/img/glovobusiness_markers.svg"
+                            style="margin-left: -40px;border-style: none;box-sizing: border-box;">
                     </div>
                 </div>
             </div>
         </section>
-        <section>Niel</section>
+        
+        <section class="container text-center">
+            <div class="row pt-3">
+                <h2 class="font-weight-bold">
+                    ¡Creamos Glovo juntos!
+                </h2>
+            </div>
+            <div class="row pt-3">
+                <!-- Card 1 -->
+                <div class="card col-12 col-md-6 col-lg-4 shadow mt-3" style="width: 18rem;">
+                    <img class="card-img-top" src="/assets/img/corporate-courier-picture.jpg" alt="Card image cap">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h3 class="card-title font-weight-bold">Repartidores</h3>
+                        <h5 class="card-subtitle mb-2 text-muted"> Solo las horas que tú quieras</h5>
+                        <p class="card-text d-flex align-items-center">Sé tu propio jefe. Flexibilidad de horarios, ingresos competitivos y la
+                            oportunidad
+                            de conocer tu ciudad repartiendo al aire libre. Apúntate y en menos de 24h colabora con
+                            nosotros.
+                        </p>
+                        <div class="">
+                            <button href="#" class="btn btn-primary btn-glovo font-weight-bold">Reparte con Glovo</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card col-12 col-md-6 col-lg-4 shadow mt-3" style="width: 18rem;">
+                    <img class="card-img-top" src="/assets/img/pizza-partner.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title font-weight-bold">Colaboradores de tienda</h3>
+                        <h5 class="card-subtitle mb-2 text-muted"> Solo las horas que tú quieras</h5>
+                        <p class="card-text d-flex align-items-center">Sé tu propio jefe. Flexibilidad de horarios, ingresos competitivos y la
+                            oportunidad
+                            de conocer tu ciudad repartiendo al aire libre. Apúntate y en menos de 24h colabora con
+                            nosotros.
+                        </p>
+                        <div>
+                            <button href="#" class="btn btn-primary btn-glovo font-weight-bold">Colabora con nosotros</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card col-12 col-md-6 col-lg-4 shadow mt-3" style="width: 18rem;">
+                    <img class="card-img-top" src="/assets/img/glovoteam-cactus.webp" alt="Card image cap">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h3 class="card-title font-weight-bold">Empleo</h3>
+                        <h5 class="card-subtitle mb-2 text-muted"> Solo las horas que tú quieras</h5>
+                        <p class="card-text d-flex align-items-center">Sé tu propio jefe. Flexibilidad de horarios, ingresos competitivos y la
+                            oportunidad
+                            de conocer tu ciudad repartiendo al aire libre. Apúntate y en menos de 24h colabora con
+                            nosotros.
+                        </p>
+                        <div>
+                            <button href="#" class="btn btn-primary btn-glovo font-weight-bold">Más información</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
-    <footer>
-        Niel
+    <footer class="container-fluid pie-pagina text-white mt-5">
+        <div class="pie-curva row">
+            <img src="/assets/img/curve.svg" alt="Curva">
+        </div>
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-2">
+                    <a href="3"><img src="/assets/img/glovo-white.svg" alt="Glovo"></a>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title pb-3">
+                        TRABAJA CON NOSOTROS
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Empleo</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Colaboradores de tienda</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Repartidores</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Glovo Business</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title pb-3">
+                        AYUDA
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Preguntas frecuentes</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title pb-3">
+                        TÉRMINOS LEGALES
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Términos y Condiciones</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Políticas de Privacidad</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="pie-header-title mb-3">
+                        SÍGUENOS
+                    </div>
+                    <div class="lista-footer-container">
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Facebook</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Twitter</a>
+                        </div>
+                        <div class="pb-1">
+                            <a href="#" class="text-white">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="mb-3"><a href="#"><img src="/assets/img/boton-app-store.svg" alt="App Store"></a></div>
+                    <div><a href="#"><img src="/assets/img/boton-google-play.svg" alt="Google Play"></a></div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
