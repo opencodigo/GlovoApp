@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Gotham";
-    src: url("/glovoapp/assets/font/gotham-cufonfonts/Gotham-Light.otf");
+    src: url("../font/gotham-cufonfonts/Gotham-Light.otf");
 }
 
 .btn-glovo {
@@ -47,6 +47,10 @@
 
 .pie-curva {
     transform: rotate(180deg);
+}
+
+.pie-curva img{
+    width: 100%;
 }
 
 .card {
